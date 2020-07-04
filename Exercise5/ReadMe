@@ -1,0 +1,52 @@
+> Georgios Gerasimos Leventopoulos csd4152  
+> Assignment 5   hy255  Software Lab        
+
+> I use everything as the exercise 5 defines 
+> For help, I used lectures and answers in the course list, took me about 6 hours.  
+
+
+
+                    (1) x86asm.s
+   (a) The sum from 0 to 1000 is 500500  
+
+   (d)    
+      (gdb) x/19i *main: O ari8mos entolwn ths main: 19
+      (gdb) x/60b *main: O ari8mos bytes pou katalamvanoun oi entoles ths main 60 
+      (kano afairesh thn dieythinsh ths epomenhs entolhs apo thn proigoymenh)
+      (gdb) b *main+28  : Breakpoint meta to telos ths loop sthn main exei offset = 28    
+      (line 32)
+
+   (e)
+     p(int) S:        $1 = 500500     
+     p (int *)&S:     $2 = (int *)$2 = (int *)  0x80496a0            
+     p (char *) &Msg: $3 = 0x80496a4 "The sum from 0 to %d is %d\n"  
+     
+     An allaxo thn timh tou s : (gdb) set *(int *)&S = 99
+     To programma ektyponei: The sum from 0 to 1000 is 99
+
+
+                            (2)
+    (a) The program prints:  The sum from 0 to 1000 is 500500
+    
+    (b) (gdb) x/28i *main : H sinarthsh main apoteleitai apo 28 entoles assembly
+
+    (d)
+      (gdb) x/28i *main : H sinarthsh main apoteleitai apo 28 entoles assembly
+      (gdb) x/88b *main: O arithmos ton bytes pou katalamvanoun oi entoles ths main: 90
+      (gdb) b 13:  Gia to zhtoumeno breakpoint offset = 13
+
+    (e) p Sum : $1 = 500500
+	p &Sum: $2 = (int *) 0x8049704 <Sum>
+	p n   : $3 = -1
+	p &n  : $4 = (int *) 0x80496fc <n>	
+        Program prints:The sum from 0 to 1000 is 500500
+
+    (f) Prints:  The sum from 0 to 1000 is 495450
+
+
+                        (3)
+    (a) Prints: The sum from 0 to 1000 is 500500
+
+    (b) Yparxoun 25 entoles assembly stin main
+
+    (c) Prints: The sum from 0 to 1000 is 500500
