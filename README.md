@@ -2,4 +2,4 @@
 
 These are the exercises during second year of University.
 
-More information about the course here: https://www.csd.uoc.gr/~hy255/
+You can find more information about the course here: https://www.csd.uoc.gr/~hy255/
