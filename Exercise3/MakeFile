@@ -1,0 +1,24 @@
+# csd4152  Georgios Gerasimos Leventopoulos
+# Assignment 3     hy255   Software Lab
+
+CFLAGS=-Wall -ansi -pedantic 
+CC=gcc
+ 
+list: symtable.h symtablelist.o
+	$(CC) $(CFLAGS) -o exe testsymtab.c symtablelist.o
+
+symtablelist.o: symtable.h symtablelist.c
+	$(CC) -c symtablelist.c
+
+
+hash: symtable.h symtablehash.o
+	$(CC) $(CFLAGS) -o exe testsymtab.c symtablehash.o
+
+symtablehash.o: symtable.h symtablehash.c
+	$(CC) -c symtablehash.c
+
+
+clean:
+	rm -rf *.o
+	rm -rf exe
+ 
