@@ -1,4 +1,4 @@
-# Software-Lab-CS255
+# Software-Technology-Laboratory
 
 These are the exercises during the second year of University.
 
