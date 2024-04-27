@@ -23,10 +23,10 @@ Exercise 3 - Abstract Data Type - Symbol Table:
 Design the SymTable ADT to be "generic", meaning that the values ​​are void pointers, and therefore cannot point to data of any type.
 - Created two implementations of the SymTable ADT: one using pointers and a list that contains a hash table.
 
-Exercise 5: Check Assembly in a C Program  
+Exercise 5: Check Assembly in a C Program:  
 - The goal of this exercise was to help introduce me to (1) assembly to x86 architecture processors, (2) representing assembly language to machine code in system memory, and (3) using gdb.   
 
-Exercise 6: Systems Security: Buffer Overrun Attack  
+Exercise 6: Systems Security: Buffer Overrun Attack:  
 - Wrote a program called createdata3.c that creates a file called data3, as simple as possible, that causes the hello program to terminate with a segmentation fault (crash).  
 - Wrote a C program called createdata6.c that produces a data6 file, as simple as possible, that causes the hello program to print a name and suggest "6" as the grade (instead of 0).
   The way that I forced the program into this behavior was to overrun the readString's buffer (buf) and write over the readString's return address (on the stack) another (appropriate)
