@@ -1,4 +1,4 @@
-# Software-Technology-Laboratory 
+# [Software-Technology-Laboratory](https://www.csd.uoc.gr/CSD/index.jsp?content=courses_catalog&openmenu=demoAcc3&lang=en&course=19)
 https://www.csd.uoc.gr/~hy255/assignments.html
 
 These are the exercises during the second year of University.
